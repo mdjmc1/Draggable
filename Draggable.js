@@ -75,7 +75,6 @@ class Draggable extends React.Component {
           if(this.props.setPanelPosition){
             this.props.setPanelPosition(left,top);
           }
-          // this.setState({pageX: left, pageY: top})
         }
         this.activeAnimation = false;
       }
